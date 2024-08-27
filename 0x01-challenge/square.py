@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""A class that defines a square"""
 
 class Square():
     
@@ -7,6 +8,7 @@ class Square():
 
     
     def __init__(self, *args, **kwargs):
+        """Initializes the square"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
