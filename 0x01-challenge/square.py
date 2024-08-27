@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""A class that defines a square"""
+"""A moule that defines a Square class"""
 
 class Square():
+    """A class representing a square with width and height attributes"""
     
     width = 0
     height = 0
